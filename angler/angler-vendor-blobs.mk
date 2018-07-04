@@ -13,30 +13,30 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/angler/proprietary/bin/ssr_setup:system/bin/ssr_setup \
-    vendor/huawei/angler/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
-    vendor/huawei/angler/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/huawei/angler/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
-    vendor/huawei/angler/proprietary/etc/permissions/com.android.sdm.plugins.connmo.xml:system/etc/permissions/com.android.sdm.plugins.connmo.xml \
-    vendor/huawei/angler/proprietary/etc/permissions/com.android.sdm.plugins.sprintdm.xml:system/etc/permissions/com.android.sdm.plugins.sprintdm.xml \
-    vendor/huawei/angler/proprietary/etc/permissions/privapp-permissions-angler.xml:system/etc/permissions/privapp-permissions-angler.xml \
-    vendor/huawei/angler/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
-    vendor/huawei/angler/proprietary/etc/permissions/privapp-permissions-platform.xml:system/etc/permissions/privapp-permissions-platform.xml \
-    vendor/huawei/angler/proprietary/etc/permissions/com.google.android.camera.experimental2016.xml:system/etc/permissions/com.google.android.camera.experimental2016.xml \
-    vendor/huawei/angler/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/huawei/angler/proprietary/etc/sysconfig/angler_common.xml:system/etc/sysconfig/angler_common.xml \
-    vendor/huawei/angler/proprietary/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
-    vendor/huawei/angler/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
-    vendor/huawei/angler/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
-    vendor/huawei/angler/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
-    vendor/huawei/angler/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/huawei/angler/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/huawei/angler/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
-    vendor/huawei/angler/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/huawei/angler/proprietary/lib64/libManufacture.so:system/lib64/libManufacture.so \
-    vendor/huawei/angler/proprietary/lib64/libtinyxml2.so:system/lib64/libtinyxml2.so \
+    vendor/huawei/angler/proprietary/bin/ssr_setup:vendor/bin/ssr_setup \
+    vendor/huawei/angler/proprietary/bin/subsystem_ramdump:vendor/bin/subsystem_ramdump \
+    vendor/huawei/angler/proprietary/etc/permissions/cneapiclient.xml:vendor/etc/permissions/cneapiclient.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/com.android.omadm.service.xml:vendor/etc/permissions/com.android.omadm.service.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/com.android.sdm.plugins.connmo.xml:vendor/etc/permissions/com.android.sdm.plugins.connmo.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/com.android.sdm.plugins.sprintdm.xml:vendor/etc/permissions/com.android.sdm.plugins.sprintdm.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/privapp-permissions-angler.xml:vendor/etc/permissions/privapp-permissions-angler.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/privapp-permissions-google.xml:vendor/etc/permissions/privapp-permissions-google.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/privapp-permissions-platform.xml:vendor/etc/permissions/privapp-permissions-platform.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/com.google.android.camera.experimental2016.xml:vendor/etc/permissions/com.google.android.camera.experimental2016.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/qcrilhook.xml:vendor/etc/permissions/qcrilhook.xml \
+    vendor/huawei/angler/proprietary/etc/sysconfig/angler_common.xml:vendor/etc/sysconfig/angler_common.xml \
+    vendor/huawei/angler/proprietary/etc/sysconfig/nexus.xml:vendor/etc/sysconfig/nexus.xml \
+    vendor/huawei/angler/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:vendor/etc/sysconfig/whitelist_com.android.omadm.service.xml \
+    vendor/huawei/angler/proprietary/lib/libdmengine.so:vendor/lib/libdmengine.so \
+    vendor/huawei/angler/proprietary/lib/libdmjavaplugin.so:vendor/lib/libdmjavaplugin.so \
+    vendor/huawei/angler/proprietary/lib/libimscamera_jni.so:vendor/lib/libimscamera_jni.so \
+    vendor/huawei/angler/proprietary/lib/libimsmedia_jni.so:vendor/lib/libimsmedia_jni.so \
+    vendor/huawei/angler/proprietary/lib/libmm-qcamera.so:vendor/lib/libmm-qcamera.so \
+    vendor/huawei/angler/proprietary/lib/libtinyxml2.so:vendor/lib/libtinyxml2.so \
+    vendor/huawei/angler/proprietary/lib64/libimscamera_jni.so:vendor/lib64/libimscamera_jni.so \
+    vendor/huawei/angler/proprietary/lib64/libimsmedia_jni.so:vendor/lib64/libimsmedia_jni.so \
+    vendor/huawei/angler/proprietary/lib64/libManufacture.so:vendor/lib64/libManufacture.so \
+    vendor/huawei/angler/proprietary/lib64/libtinyxml2.so:vendor/lib64/libtinyxml2.so \
     vendor/huawei/angler/proprietary/lib/egl/eglSubDriverAndroid.so:vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/huawei/angler/proprietary/lib/egl/libEGL_adreno.so:vendor/lib/egl/libEGL_adreno.so \
     vendor/huawei/angler/proprietary/lib/egl/libGLESv1_CM_adreno.so:vendor/lib/egl/libGLESv1_CM_adreno.so \
