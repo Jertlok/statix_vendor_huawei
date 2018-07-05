@@ -43,9 +43,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib/egl/libGLESv2_adreno.so:vendor/lib/egl/libGLESv2_adreno.so \
     vendor/huawei/angler/proprietary/lib/egl/libq3dtools_adreno.so:vendor/lib/egl/libq3dtools_adreno.so \
     vendor/huawei/angler/proprietary/lib/egl/libq3dtools_esx.so:vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/huawei/angler/proprietary/lib/egl/libadreno_utils.so:vendor/lib/egl/libadreno_utils.so \
+    vendor/huawei/angler/proprietary/lib/egl/libgsl.so:vendor/lib/egl/libgsl.so \
+    vendor/huawei/angler/proprietary/lib/egl/libllvm-glnext.so:vendor/lib/egl/libllvm-glnext.so \
     vendor/huawei/angler/proprietary/lib64/egl/eglSubDriverAndroid.so:vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/huawei/angler/proprietary/lib64/egl/libEGL_adreno.so:vendor/lib64/egl/libEGL_adreno.so \
     vendor/huawei/angler/proprietary/lib64/egl/libGLESv1_CM_adreno.so:vendor/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/huawei/angler/proprietary/lib64/egl/libGLESv2_adreno.so:vendor/lib64/egl/libGLESv2_adreno.so \
     vendor/huawei/angler/proprietary/lib64/egl/libq3dtools_adreno.so:vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/huawei/angler/proprietary/lib64/egl/libq3dtools_esx.so:vendor/lib64/egl/libq3dtools_adreno.so
+    vendor/huawei/angler/proprietary/lib64/egl/libq3dtools_esx.so:vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/huawei/angler/proprietary/lib64/egl/libadreno_utils.so:vendor/lib64/egl/libadreno_utils.so \
+    vendor/huawei/angler/proprietary/lib64/egl/libgsl.so:vendor/lib64/egl/libgsl.so \
+    vendor/huawei/angler/proprietary/lib64/egl/libllvm-glnext.so:vendor/lib64/egl/libllvm-glnext.so
